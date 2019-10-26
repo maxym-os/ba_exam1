@@ -4,6 +4,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     color: #fff;
+    font-weight: 400;
 }
 
 header {
@@ -99,4 +100,36 @@ nav {
 
 nav a {
     padding: 20px;
+}
+
+#why_choose_us {
+    height: 685px;
+    background: url(../img/bg-why_choose_us.png);
+    background-position: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#why_choose_us :first-child {
+    margin-top: 100px;
+}
+
+#why_choose_us h3 {
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#why_choose_us p {
+    margin: 40px 0;
+}
+
+#why_choose_us a {
+    font-family: 'Aleo', serif;
+    background-color: rgba(84, 116, 253, 0.6);
+    padding: 20px 40px;
+}
+
+#png_why_choose_us_2 {
+    margin-left: 120px;
 }
