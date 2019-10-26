@@ -133,3 +133,17 @@ nav a {
 #png_why_choose_us_2 {
     margin-left: 120px;
 }
+
+#how_it_works {
+    height: 340px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+}
+
+#how_it_works img {
+    margin-left: 70px;
+}
