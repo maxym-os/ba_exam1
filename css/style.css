@@ -10,7 +10,9 @@ body {
 header {
     height: 820px;
     background: url(../img/bg_header.png);
-    background-position: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header #main {
@@ -105,7 +107,9 @@ nav a {
 #why_choose_us {
     height: 685px;
     background: url(../img/bg-why_choose_us.png);
-    background-position: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-evenly;
 }
@@ -114,7 +118,7 @@ nav a {
     margin-top: 100px;
 }
 
-#why_choose_us h3 {
+h3 {
     font-family: 'Aleo', serif;
     font-size: 36px;
     font-weight: 400;
@@ -124,10 +128,16 @@ nav a {
     margin: 40px 0;
 }
 
-#why_choose_us a {
+#blue_a {
     font-family: 'Aleo', serif;
-    background-color: rgba(84, 116, 253, 0.6);
+    background-color: rgba(54, 89, 243, 0.6);
     padding: 20px 40px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#blue_a:hover {
+    background-color: rgba(36, 72, 230, 0.6);
 }
 
 #png_why_choose_us_2 {
@@ -146,4 +156,85 @@ nav a {
 
 #how_it_works img {
     margin-left: 70px;
+}
+
+#spain_1 {
+    background: url(../img/bg_spain_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#spain_2 {
+    background: url(../img/bg_spain_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.madrid {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 370px;
+    width: 540px;
+    margin-top: 230px;
+    padding: 30px;
+}
+
+#madrid_1 {
+    margin-right: 33%;
+}
+
+#madrid_2 {
+    margin-left: 33%;
+}
+
+h4, h5 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.madrid p {
+    font-weight: 300;
+}
+
+#review {
+    background: url(../img/bg-review.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+}
+
+#review h3 {
+    text-align: center;
+    padding-top: 120px;
+    margin: 0;
+}
+
+#sumon {
+    height: 290px;
+    width: 1110px;
+    background-color: rgba(61, 58, 58, 0.274);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#sumon p {
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#sumon h5 {
+    margin-top: 10px;
+}
+
+#sumon div {
+    padding: 30px;
 }
